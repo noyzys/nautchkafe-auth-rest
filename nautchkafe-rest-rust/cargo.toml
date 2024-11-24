@@ -1,0 +1,13 @@
+[package]
+name = "nautchkafe-rest-rust"
+version = "0.1.0"
+edition = "0000"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = "0.11"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+futures = "0.3"
+thiserror = "1.0"
+uuid = { version = "1.0", features = ["v4"] }
