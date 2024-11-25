@@ -1,7 +1,7 @@
 package dev.nautchkafe.mojang.rest;
 
 @FunctionalInterface
-interface SupplierWithException<TYPPE> {
+interface SupplierWithException<TYPE> {
     
     TYPE get() throws Exception;
 }
