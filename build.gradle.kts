@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("org.asynchttpclient:async-http-client:3.0.0")
+    implementation("org.asynchttpclient:async-http-client:3.0.1")
     implementation("io.vavr:vavr:0.10.5")
     implementation("com.github.ben-manes.caffeine:caffeine:3.1.8")
 
