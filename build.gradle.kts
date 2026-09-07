@@ -2,7 +2,7 @@ plugins {
     id("org.springframework.boot") version "3.5.7"
     id("io.spring.dependency-management") version "1.1.7"
     kotlin("jvm") version "2.1.10"
-    kotlin("plugin.spring") version "2.1.10"
+    kotlin("plugin.spring") version "2.4.20"
 }
 
 group = "dev.nautchkafe.mojang.rest"
@@ -14,9 +14,9 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("org.asynchttpclient:async-http-client:3.0.1")
-    implementation("io.vavr:vavr:0.10.6")
-    implementation("com.github.ben-manes.caffeine:caffeine:3.2.0")
+    implementation("org.asynchttpclient:async-http-client:3.0.13")
+    implementation("io.vavr:vavr:0.11.0")
+    implementation("com.github.ben-manes.caffeine:caffeine:3.2.4")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
